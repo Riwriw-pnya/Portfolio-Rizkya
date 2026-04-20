@@ -1,0 +1,78 @@
+.experience { background: var(--bg); }
+
+.timeline { position: relative; padding-left: 40px; }
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 8px; top: 0; bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--accent), transparent);
+  opacity: 0.3;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 48px;
+}
+.timeline-item:last-child { margin-bottom: 0; }
+
+.tl-dot {
+  position: absolute;
+  left: -36px; top: 6px;
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 3px solid var(--bg);
+  box-shadow: 0 0 12px rgba(232,255,120,0.4);
+}
+
+.tl-date {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  opacity: 0.8;
+}
+
+.tl-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+.tl-card:hover {
+  border-color: var(--border-accent);
+  box-shadow: var(--shadow-accent);
+}
+
+.tl-role {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.tl-company {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.tl-company i { color: var(--accent); }
+.tl-card p { color: var(--text-muted); font-size: 0.97rem; margin-bottom: 16px; }
+.tl-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.tl-tags span {
+  font-size: 0.75rem;
+  font-family: var(--font-display);
+  font-weight: 600;
+  padding: 3px 12px;
+  border-radius: 100px;
+  background: var(--bg-3);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+}
