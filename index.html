@@ -1,0 +1,483 @@
+  <!DOCTYPE html>
+  <html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio | Rizkya Rilly</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/experience.css" />
+    <link rel="stylesheet" href="css/form.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  </head>
+  <body>
+
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-dot" id="cursorDot"></div>
+
+    <nav class="navbar" id="navbar">
+      <div class="nav-logo">RR<span class="accent">.</span></div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+  <!-- home -->
+    <section class="hero" id="home">
+      <div class="hero-bg">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="grid-overlay"></div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="hero-greeting reveal">Halo, Saya</p>
+          <h1 class="hero-name reveal">Rizkya<br /><span class="name-outline">Rilly</span></h1>
+          <div class="hero-role reveal">
+            <span class="role-prefix">Seorang </span>
+            <span class="typewriter" id="typewriter"></span>
+            <span class="cursor-blink">|</span>
+          </div>
+          <p class="hero-desc reveal"><i>"Hasil yang besar membutuhkan ambisi yang besar."</i>
+          </p>
+          <div class="hero-cta reveal">
+            <a href="#projects" class="btn btn-primary">Lihat Proyek</a>
+            <a href="#contact" class="btn btn-ghost">Hubungi Saya</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="avatar-wrap">
+            <div class="avatar-ring"></div>
+            <div class="avatar-img">
+              <img src="img/roboHInobg.png" alt="Rizkya Rilly" class="about-img-bg" style="width: 100%; height: auto; display: block;">
+                <defs>
+                  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#78fff2;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#35c6e6;stop-opacity:1" />
+                  </linearGradient>
+                </defs>=
+              </svg>
+            </div>
+            <div class="float-badge badge-1"><i class="fa-brands fa-unity"></i> Unity </div>
+            <div class="float-badge badge-2"><i class="fa-solid fa-code"></i> Dev </div>
+            <div class="float-badge badge-3"><i class="fa-solid fa-star"></i> UI/UX </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-hint">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-label reveal">01 — About</div>
+        <div class="about-grid">
+          <div class="about-img-wrap reveal">
+              <div class="about-img-card">
+                <div class="img-placeholder" style="position: relative; display: block;">
+                  <img src="img/MCrinduS.JPG" alt="Rizkya Rilly" class="about-img-bg" style="width: 100%; height: auto; display: block;">
+                  <svg viewBox="0 0 300 310" xmlns="http://www.w3.org/2000/svg" 
+                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;">
+                    
+                    <text x="150" y="365" text-anchor="middle" fill="#e8ff78" font-size="14" font-family="monospace" font-weight="bold" style="text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.188);">
+                      Rizkya Rilly
+                    </text>
+                  </svg>
+              </div>
+            </div>
+            <div class="about-img-deco"></div>
+          </div>
+          <div class="about-text reveal">
+            <h2 class="section-title">Sedikit Tentang <span class="accent">Saya</span></h2>
+            <p>
+              Saya adalah seorang pelajar yang berminat dan ingin memngembangkan pontensi di bidang 
+              web development dan gim, serta meningkatkan potensi komunikasi.
+              Saya bersemangat membangun produk digital yang tidak hanya berfungsi dengan baik,
+              tetapi juga terasa menyenangkan untuk digunakan.
+            </p>
+            <div class="about-info">
+              <div class="info-item">
+                <i class="fa-solid fa-envelope"></i>
+                <span>rillyrizkya@gmail.com</span>
+              </div>
+              <div class="info-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Bandung, Indonesia</span>
+              
+            </div>
+            <a href="img/Curriculum Vitae - CV.pdf" class="btn btn-primary">Download CV <i class="fa-solid fa-download"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="section-label reveal">02 — Skills</div>
+        <h2 class="section-title reveal">Keahlian &amp; <span class="accent">Kemampuan</span></h2>
+        <div class="skills-grid reveal">
+          <div class="skill-card" data-skill="HTML" data-level="90">
+            <div class="skill-icon"><i class="fa-brands fa-html5"></i></div>
+            <div class="skill-info">
+              <span class="skill-name">HTML</span>
+              <span class="skill-pct">90%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+          <div class="skill-card" data-skill="CSS" data-level="90">
+            <div class="skill-icon"><i class="fa-brands fa-css3"></i></div>
+            <div class="skill-info">
+              <span class="skill-name">CSS</span>
+              <span class="skill-pct">90%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+          <div class="skill-card" data-skill="JavaScript" data-level="45">
+            <div class="skill-icon"><i class="fa-brands fa-js"></i></div>
+            <div class="skill-info">
+              <span class="skill-name">JavaScript</span>
+              <span class="skill-pct">45%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="45"></div></div>
+          </div>
+          <div class="skill-card" data-skill="Java" data-level="55">
+            <div class="skill-icon"><i class="fa-brands fa-java"></i></div>
+            <div class="skill-info">
+              <span class="skill-name">Java</span>
+              <span class="skill-pct">50%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="55"></div></div>
+          </div>
+          <div class="skill-card" data-skill="C#" data-level="70">
+            <div class="skill-icon"><i class="fa-brands fa-hashtag"></i></div>
+            <div class="skill-info">
+              <span class="skill-name">C#</span>
+              <span class="skill-pct">70%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+          </div>
+          <div class="skill-card" data-skill="UI/UX" data-level="60">
+            <div class="skill-icon"><i class="fa-brands fa-figma"></i></div>
+            <div class="skill-info">
+              <span class="skill-name">UI/UX</span>
+              <span class="skill-pct">60%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="60"></div></div>
+          </div>
+          <div class="skill-card" data-skill="Git" data-level="80">
+            <div class="skill-icon"><i class="fa-brands fa-git-alt"></i></div>
+            <div class="skill-info">
+              <span class="skill-name">Git / GitHub</span>
+              <span class="skill-pct">80%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          </div>
+          <div class="skill-card" data-skill="php" data-level="70">
+            <div class="skill-icon"><i class="fa-brands fa-php"></i></div>
+            <div class="skill-info">
+              <span class="skill-name">PHP</span>
+              <span class="skill-pct">70%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+          </div>
+          <div class="skill-card" data-skill="python" data-level="60">
+            <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
+            <div class="skill-info">
+              <span class="skill-name">Python</span>
+              <span class="skill-pct">60%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="60"></div></div>
+          </div>
+        </div>
+        <div class="tech-tags reveal">
+          <span class="tag">Laravel</span>
+          <span class="tag">Android studio</span>
+          <span class="tag">Unity</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">Figma</span>
+          <span class="tag">phpMyAdmin</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-label reveal">03 — Projects</div>
+        <h2 class="section-title reveal">Proyek</h2>
+        <div class="projects-grid">
+
+          <div class="project-card reveal">
+            <div class="project-img">
+              <div class="project-mockup">
+                <div class="mockup-bar"><span></span><span></span><span></span></div>
+                <img src="img/Study.png" alt="Project" style="width:100%; height:200px; object-fit:cover; object-position:top; display:block;" />
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-num">01</div>
+              <h3 class="project-title">STUDYINFO</h3>
+              <p class="project-desc"><i>Team ~ Backend—Frontend</i><br><br>
+              <b>Aplikasi</b> yang dapat membantu para siswa dengan fitur info tugas,
+              jadwal mata pelajaran, data pengajar, data piket kelas, dan tata tertib kelas.
+              Aplikasi ini dapat dikelola oleh admin atau pengurus masing-masing kelas.
+              </p>
+              <div class="project-stack">
+                <span>Kotlin</span><span>Android Studio</span><span>SQLite</span>
+              </div>
+              <div class="project-links">
+                <!--<a href="#" class="proj-link primary"><i class="fa-solid fa-arrow-up-right-from-square"></i>Preview</a>-->
+              </div>
+            </div>
+          </div>
+          <!-- project2-->
+          <div class="project-card reveal">
+            <div class="project-img">
+              <div class="project-mockup">
+                <div class="mockup-bar"><span></span><span></span><span></span></div>
+                <img src="img/Dkelas.png" alt="Project" style="width:100%; height:200px; object-fit:cover; object-position:top; display:block;" />
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-num">02</div>
+              <h3 class="project-title">DAFTAR KELAS</h3>
+              <p class="project-desc"><i>Solo</i><br><br>
+              Web yang berisikan daftar kelas beserta ruangan dan wali kelas
+              di SMKN 4 bandung</p>
+              <div class="project-stack">
+                <span>Laravel</span><span>HTML</span><span>CSS</span><span>MySQL</span>
+              </div>
+              <div class="project-links">
+                <!--<a href="#" class="proj-link primary"><i class="fa-solid fa-arrow-up-right-from-square"></i>Preview</a>-->
+              </div>
+            </div>
+          </div>
+          <!-- project3 -->
+          <div class="project-card reveal">
+            <div class="project-img">
+              <div class="project-mockup">
+                <div class="mockup-bar"><span></span><span></span><span></span></div>
+                <img src="img/mainmenu.png" alt="Project" style="width:100%; height:200px; object-fit:cover; object-position:top; display:block;" />
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-num">03</div>
+              <h3 class="project-title">PRETAGIRI </h3>
+              <p class="project-desc"><i>Team ~ Programmer [ On Going ]</i><br><br>
+              <b>Gim horor</b> story yang mengisahkan seorang gadis sedang
+              camp bersama kedua temannya sebelum melanjutkan perjalanannya memuncaki gunung yang kemudian ia masuk kedunia
+              gaib dan berusaha untuk keluar dari dunia itu dengan melawan jin
+              yang memburuinya.</p>
+              <div class="project-stack">
+                <span>Unity</span><span>C#</span>
+              </div>
+              <div class="project-links">
+                <!--<a href="#" class="proj-link primary"><i class="fa-solid fa-arrow-up-right-from-square"></i>Preview</a>-->
+              </div>
+            </div>
+          </div>
+          <!-- project4-->
+          <div class="project-card reveal">
+            <div class="project-img">
+              <div class="project-mockup">
+                <div class="mockup-bar"><span></span><span></span><span></span></div>
+                <img src="img/gula.jpeg" alt="Project" style="width:100%; height:200px; object-fit:cover; object-position:top; display:block;" />
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-num">04</div>
+              <h3 class="project-title">WORD SHUFFLE</h3>
+              <p class="project-desc"><b>Aplikasi</b> gim offline yang melatih bank kosakata
+              bahasa Indonesia. Gim teka-teki yang dimana pemain menyusun kata yang telah diacak.</p>
+              <div class="project-stack">
+                <span>Java</span>
+              </div>
+              <div class="project-links">
+                <!--<a href="#" class="proj-link primary"><i class="fa-solid fa-arrow-up-right-from-square"></i>Preview</a>-->
+              </div>
+            </div>
+          </div>
+          <!-- project5-->
+          <div class="project-card reveal">
+            <div class="project-img">
+              <div class="project-mockup">
+                <div class="mockup-bar"><span></span><span></span><span></span></div>
+                <img src="img/image.png" alt="Project" style="width:100%; height:200px; object-fit:cover; object-position:top; display:block;" />
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-num">05</div>
+              <h3 class="project-title">PORTFOLIO WEBSITE</h3>
+              <div class="project-stack">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <!--<a href="#" class="proj-link primary"><i class="fa-solid fa-arrow-up-right-from-square"></i>Preview</a>-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- experience -->
+    <section class="experience section" id="experience">
+      <div class="container">
+        <div class="section-label reveal">04 — Experience</div>
+        <h2 class="section-title reveal">Pengalaman <span class="accent">Sosial</span></h2>
+        <div class="timeline">
+
+          <div class="timeline-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-date">2026</div>
+            <div class="tl-card">
+              <div class="tl-role">Volunteer Pengajar</div>
+              <div class="tl-company"><i class="fa-solid fa-book"></i> Program Bakti Sosial Rohis</div>
+              <p>Mengajar di Yayasan Permata Insani Bandung dengan membawakan pematerian tentang
+                anti bullying kepada anak-anak & remaja.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-date">2025</div>
+            <div class="tl-card">
+              <div class="tl-role">Finalis iTECH COMPETITION SEASON 8</div>
+              <div class="tl-company"><i class="fa-solid fa-medal"></i>Creative Thinking & Problem Solving with Machine Learning</div>
+              <p>Menciptakan aplikasi pendeteksi uang untuk tunanetra dan gim pelatih
+                motorik berbasis gesture dengan memanfaatkan Teachable Machine.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-date">2024 - Sekarang</div>
+            <div class="tl-card">
+              <div class="tl-role">Master Of Ceremony</div>
+              <div class="tl-company"><i class="fa-solid fa-microphone"></i>Organisasi Rohis</div>
+              <p>Dipercaya menjadi MC Utama berbagai acara besar keagamaan sekolah 
+                hingga MC kompetisi tingkat provinsi.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-date">2022 - Sekarang</div>
+            <div class="tl-card">
+              <div class="tl-role">Tausiyah</div>
+              <div class="tl-company"><i class="fa-solid fa-microphone"></i>Organisasi Rohis</div>
+              <p>Menyebarkan dakwah agama islam melalui tausiyah berbasis logika dan ilmiah serta contoh 
+                relevan saat ini. </p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-date">2024 - 2026</div>
+            <div class="tl-card">
+              <div class="tl-role">Koordinator Departemen Syiar</div>
+              <div class="tl-company"><i class="fa-solid fa-building"></i> Organisasi Rohis</div>
+              <p>• Mengelola rekrutmen dan pemeliharaan
+              keaktifan anggota organisasi.<br>• Mengelola dan memastikan performa anggota
+              dalam kepanitiaan tetap optimal.
+              <br>• Memonitor pelaksanaan program rutin. </p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-date">2024</div>
+            <div class="tl-card">
+              <div class="tl-role">Koordinator Acara Drama</div>
+              <div class="tl-company"><i class="fa-solid fa-school"></i> Acara Sekolah & Acara Organisasi Rohis</div>
+              <p>Bertanggung jawab dalam persiapan drama acara "Hari Guru" dan "ICON (Islamic Competition) Vol.1", mulai dari ide atau konsep
+                drama, aktor dan aktris, hingga hari pelaksanaan tampil.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section-label reveal">05 — Contact</div>
+        <h2 class="section-title reveal">Ayo <span class="accent">Terhubung</span></h2>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <div class="contact-card">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <span class="cc-label">Email</span>
+                <a href="mailto:rillyrizkya@gmail.com">rillyrizkya@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-card">
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <span class="cc-label">Telepon</span>
+                <a href="tel:+62887436629576">+62 887-4366-29576</a>
+              </div>
+            </div>
+            <div class="contact-card">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <span class="cc-label">Lokasi</span>
+                <span>Bandung, Jawa Barat</span>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/Riwriw-pnya" class="social-btn" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="https://rizkyalaravel.blogspot.com/" class="social-btn" aria-label="Blogger"><i class="fa-brands fa-blogger"></i></a>
+            </div>
+          </div>  
+        </div>    
+      </div>      
+    </section>    
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">RR<span class="accent">.</span></div>
+          <p class="footer-text">Rizkya Rilly Abdillah &copy; <span id="year"></span></p>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button class="back-top" id="backTop" aria-label="Kembali ke atas">
+      <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+    <script src="js/animation.js"></script>
+  </body>
+  </html>
